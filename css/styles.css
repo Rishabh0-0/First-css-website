@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: normal;
+    color: #66BFBF;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: noraml;
+    color: #66BFBF;
+
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    width: 10%;
+    border: none;
+    border-top: 15px dotted;
+    border-color: #F2E3DB;
+    margin: 100px auto 100px auto;
+    
+}
+
+.cloud-top {
+    height: 100px; width: 180px;
+    
+    position: absolute;
+    top: 100px; right: 20%;
+}
+
+.cloud-bottom {
+    height: 100px; width: 180px;
+    
+    position: absolute;
+    bottom: 300px; left: 20%;    
+}
+
+.mountain {
+    height: 300px; width: 500px;
+    
+    padding-top: 100px;
+}
+
+.top-container {
+    background-color: #F2E3DB;
+    padding-top: 200px;
+    position: relative;
+}
+
+.bottom-container {
+    padding-top: 30px; padding-bottom: 10px;
+
+    background-color: #F2E3DB;
+}
+
+.profile-img {
+    height: 200px; width: 200px;
+
+}
+
+.profile {
+    margin: 50px auto 50px auto;
+}
+
+.skills {
+    margin: 50px auto 50px auto;
+}
+
+.skill-row {
+    width: 50%;
+
+    text-align: start;
+    margin: 50px auto 50px auto;
+    line-height: 2;    
+}
+
+.contact-me {
+    margin: 50px auto 50px auto;
+    line-height: 2;
+}
+
+.skill-img1 {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img2 {
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    font-family: 'montserrat', sans-serif; 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #0E8388; 
+    border-radius: 12px;
+    transition-duration: 0.4s;  
+}
+
+.btn:hover {
+    background-color: #393646;
+}
+
+.footer-link {
+    margin: 50px;
+}
+
